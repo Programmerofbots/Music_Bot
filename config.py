@@ -109,6 +109,16 @@ if SUPPORT_CHANNEL:
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
 
+if PING_IMG_URL:
+    if PING_IMG_URL != "assets/Ping.jpeg":
+        if not re.match("(?:http|https)://", PING_IMG_URL):
+            PING_IMG_URL = "https://te.legra.ph/file/d106519f324f3309b23eb.jpg"
+
+if START_IMG_URL:
+    if START_IMG_URL != "assets/Ping.jpeg":
+        if not re.match("(?:http|https)://", START_IMG_URL):
+            START_IMG_URL = "https://te.legra.ph/file/d106519f324f3309b23eb.jpg"
+            
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
