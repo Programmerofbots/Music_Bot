@@ -112,12 +112,12 @@ if SUPPORT_CHANNEL:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/d106519f324f3309b23eb.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/d1060a096af511f0907ea.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/d106519f324f3309b23eb.jpg"
+            START_IMG_URL = "https://telegra.ph/file/d1060a096af511f0907ea.jpg"
             
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
