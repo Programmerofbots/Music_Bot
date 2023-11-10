@@ -157,6 +157,9 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 text="☞︎︎︎𝗦𝗨𝗣𝗣𝗢𝗥𝗧☜︎︎︎", url="https://t.me/all_exam_quiz_new"
             ),
             InlineKeyboardButton(
+                text="☞︎︎︎𝗦𝗨𝗣𝗣𝗢𝗥𝗧☜︎︎︎", url="https://t.me/all_exam_quiz_new"
+            ),
+            InlineKeyboardButton(
                 text="▷",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
