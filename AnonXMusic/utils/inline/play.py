@@ -68,7 +68,13 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="☞︎︎︎𝑺𝒖𝒑𝒑𝒐𝒓𝒕☜︎︎︎", url="https://t.me/O_P_Hacker"
+                text="𝑺𝒖𝒑𝒑𝒐𝒓𝒕💬", url="https://t.me/O_P_Hacker"
+            )
+        ],
+        
+        [
+            InlineKeyboardButton(
+                text="Updates 🔊", url="https://t.me/O_P_Hacker"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -154,10 +160,10 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="☞︎︎︎𝑺𝒖𝒑𝒑𝒐𝒓𝒕☜︎︎︎", url="https://t.me/O_P_Hacker"
+                text="𝑺𝒖𝒑𝒑𝒐𝒓𝒕💬", url="https://t.me/O_P_Hacker"
             ),
             InlineKeyboardButton(
-                text="☞︎︎︎𝑺𝒖𝒑𝒑𝒐𝒓𝒕☜︎︎︎", url="https://t.me/O_P_Hacker"
+                text="𝑺𝒖𝒑𝒑𝒐𝒓𝒕 💬", url="https://t.me/O_P_Hacker"
             ),
             InlineKeyboardButton(
                 text="▷",
